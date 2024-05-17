@@ -1,0 +1,103 @@
+HomePage As screen:
+    Fill: =Color.White
+    LoadingSpinnerColor: =App.Theme.Colors.Primary
+
+    TextCanvas2 As Text:
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =32
+        Text: |-
+            ="INGENIUM
+            "
+        Width: =96
+        X: =40
+        Y: =40
+        ZIndex: =1
+
+    ButtonCanvas1 As Button:
+        BasePaletteColor: =RGBA(168, 110, 235, 1)
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =32
+        Text: ="Home"
+        Width: =96
+        X: =177
+        Y: =40
+        ZIndex: =2
+
+    ButtonCanvas1_1 As Button:
+        BasePaletteColor: =RGBA(168, 110, 235, 1)
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =32
+        Text: ="Courses"
+        Width: =96
+        X: =334
+        Y: =40
+        ZIndex: =3
+
+    ButtonCanvas1_2 As Button:
+        BasePaletteColor: =RGBA(168, 110, 235, 1)
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =32
+        Text: ="Results"
+        Width: =96
+        X: =491
+        Y: =40
+        ZIndex: =4
+
+    ButtonCanvas1_5 As Button:
+        BasePaletteColor: =RGBA(168, 110, 235, 1)
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =32
+        Text: ="Login"
+        Width: =96
+        X: =1026
+        Y: =40
+        ZIndex: =7
+
+    ButtonCanvas1_6 As Button:
+        BasePaletteColor: =RGBA(168, 110, 235, 1)
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =32
+        Text: ="Signup"
+        Width: =96
+        X: =1135
+        Y: =40
+        ZIndex: =8
+
+    TextCanvas1 As Text:
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =199
+        Text: ="Unleash the power of AI to revolutionize education with tailored, ethical, and intelligent solutions."
+        Width: =501
+        X: =40
+        Y: =198
+        ZIndex: =9
+
+    ButtonCanvas1_7 As Button:
+        BasePaletteColor: =RGBA(168, 110, 235, 1)
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =52
+        Text: ="View Courses"
+        Width: =122
+        X: =55
+        Y: =397
+        ZIndex: =10
+
+    ButtonCanvas1_3 As Button:
+        BasePaletteColor: =RGBA(168, 110, 235, 1)
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =32
+        Text: ="Chat"
+        Width: =96
+        X: =813
+        Y: =40
+        ZIndex: =11
+

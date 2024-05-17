@@ -1,0 +1,139 @@
+Signup As screen:
+    Fill: =Color.White
+    LoadingSpinnerColor: =App.Theme.Colors.Primary
+
+    ButtonCanvas3_2 As Button:
+        BasePaletteColor: =RGBA(168, 110, 235, 1)
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =41
+        Text: ="Sign up"
+        Width: =303
+        X: =153
+        Y: =538
+        ZIndex: =1
+
+    TextCanvas5_3 As Text:
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        FontItalic: =true
+        Height: =52
+        Text: ="Create new Ingenium-X account"
+        Weight: ='TextCanvas.Weight'.Semibold
+        Width: =358
+        X: =153
+        Y: =210
+        ZIndex: =3
+
+    "TextInputCanvas2_2 As 'Text input'":
+        BasePaletteColor: =
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =32
+        Value: =""
+        Width: =320
+        X: =153
+        Y: =312
+        ZIndex: =4
+
+    "TextInputCanvas2_3 As 'Text input'":
+        BasePaletteColor: =
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =32
+        Type: ='TextInputCanvas.Type'.Password
+        Value: ="Password"
+        Width: =320
+        X: =153
+        Y: =395
+        ZIndex: =5
+
+    TextCanvas5_5 As Text:
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =39
+        Text: ="Already have an account?"
+        Width: =156
+        X: =72
+        Y: =639
+        ZIndex: =7
+
+    ButtonCanvas3_3 As Button:
+        BasePaletteColor: =RGBA(168, 110, 235, 1)
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =35
+        Text: ="Login"
+        Width: =130
+        X: =326
+        Y: =639
+        ZIndex: =8
+
+    "TextInputCanvas2_4 As 'Text input'":
+        BasePaletteColor: =
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =32
+        Type: ='TextInputCanvas.Type'.Password
+        Value: ="Password"
+        Width: =320
+        X: =153
+        Y: =468
+        ZIndex: =9
+
+    TextCanvas5_4 As Text:
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =52
+        Text: ="Confirm password"
+        Width: =358
+        X: =153
+        Y: =427
+        ZIndex: =10
+
+    Image2 As image:
+        BorderColor: =App.Theme.Colors.Darker40
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Height: =768
+        Image: ='Screenshot 2024-05-14 at 4.29.59 pm'
+        Width: =617
+        X: =749
+        ZIndex: =11
+
+    TextCanvas7_8 As Text:
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        FontItalic: =false
+        FontUnderline: =false
+        Height: =103
+        Size: =40
+        Text: ="Sign up"
+        VerticalAlign: ="Middle"
+        Weight: ='TextCanvas.Weight'.Bold
+        Width: =340
+        Wrap: =true
+        X: =153
+        Y: =133
+        ZIndex: =12
+
+    TextCanvas5_9 As Text:
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =52
+        Text: ="Enter your password"
+        Width: =358
+        X: =153
+        Y: =347
+        ZIndex: =13
+
+    TextCanvas5_11 As Text:
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =52
+        Text: ="Enter your username"
+        Width: =358
+        X: =153
+        Y: =262
+        ZIndex: =15
+

@@ -1,0 +1,58 @@
+Aboutus As screen:
+    Fill: =Color.White
+    LoadingSpinnerColor: =App.Theme.Colors.Primary
+
+    TextCanvas8 As Text:
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =32
+        Text: ="About Us"
+        Width: =96
+        X: =40
+        Y: =40
+        ZIndex: =1
+
+    TextCanvas9 As Text:
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =264
+        Text: |-
+            ="Mentes Formans, Futura Potens 
+            Unleash the power of AI to revolutionize education with tailored, ethical, and intelligent solutions."
+        Width: =313
+        X: =40
+        Y: =97
+        ZIndex: =2
+
+    TextCanvas10 As Text:
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =250
+        Text: ="Discover Ingenium-X, the pinnacle of academic support in the educational landscape. Tailored for universities and schools, our AI-powered chatbot offers instant, precise answers to academic queries, enhancing students' learning experiences. Ethically designed and meticulously trained, Ingenium-X embodies responsible AI utilization. Empower students, educators, and peers alike with our innovative solution, where intelligence meets innovation for a brighter educational future."
+        Width: =479
+        X: =40
+        Y: =275
+        ZIndex: =3
+
+    ButtonCanvas2 As Button:
+        BasePaletteColor: =
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =32
+        Text: ="Contact us"
+        Width: =96
+        X: =60
+        Y: =580
+        ZIndex: =4
+
+    Image3 As image:
+        BorderColor: =App.Theme.Colors.Darker40
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Height: =255
+        Image: ='181878549'
+        Width: =335
+        X: =830
+        Y: =240
+        ZIndex: =5
+
