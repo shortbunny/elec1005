@@ -629,9 +629,8 @@
                         FillPortions: =1
                         Image: ='157580562'
                         ImagePosition: =ImagePosition.Fill
-                        OnSelect: |-
-                            =falsNavigate(OGChat)
-                            e
+                        OnSelect: |
+                            =Navigate(OGChat)
                         Width: =400
                         ZIndex: =1
 

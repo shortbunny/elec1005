@@ -76,6 +76,7 @@
         DisplayMode: =DisplayMode.Edit
         FontColor: =
         Height: =46
+        OnSelect: =Navigate(OGChat_1)
         Text: ="Info 1110 worksheet for ..."
         Width: =392
         X: =95
@@ -87,6 +88,7 @@
         DisplayMode: =DisplayMode.Edit
         FontColor: =
         Height: =46
+        OnSelect: =Navigate(OGChat_1)
         Text: ="Aristotle book doubts..."
         Width: =392
         X: =96
@@ -98,6 +100,7 @@
         DisplayMode: =DisplayMode.Edit
         FontColor: =
         Height: =46
+        OnSelect: =Navigate(OGChat_3)
         Text: ="Central assignment teach ..."
         Width: =392
         X: =96
@@ -109,6 +112,8 @@
         DisplayMode: =DisplayMode.Edit
         FontColor: =
         Height: =46
+        OnSelect: |
+            =Navigate(OGChat_4)
         Text: ="ELEC 1061 definition..."
         Width: =392
         X: =96

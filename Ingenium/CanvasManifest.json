@@ -99,7 +99,7 @@
       "zeroalltabindexes": true
     },
     "Author": "",
-    "BindingErrorCount": 5,
+    "BindingErrorCount": 3,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "DesktopOrTablet",
@@ -117,7 +117,7 @@
     "ManualOfflineProfileId": "",
     "Name": "INGENIUM_X_FINAL",
     "OriginatingVersion": "1.341",
-    "ParserErrorCount": 4,
+    "ParserErrorCount": 2,
     "ShowStatusBar": false
   },
   "PublishInfo": {
@@ -135,7 +135,8 @@
     "HomePage",
     "SubjectGrid",
     "Aboutus",
-    "Signedin",
+    "Loginin",
+    "Signedup",
     "OGChat",
     "OGChat_4",
     "OGChat_3",

@@ -17,6 +17,7 @@ Login As screen:
         DisplayMode: =DisplayMode.Edit
         FontColor: =
         Height: =35
+        OnSelect: =Navigate(Signup)
         Text: ="Sign up"
         Width: =130
         X: =326

@@ -1,58 +1,64 @@
 Aboutus As screen:
-    Fill: =Color.White
+    Fill: =RGBA(195, 187, 250, 1)
     LoadingSpinnerColor: =App.Theme.Colors.Primary
 
     TextCanvas8 As Text:
         DisplayMode: =DisplayMode.Edit
         FontColor: =
-        Height: =32
+        FontItalic: =true
+        Height: =102
+        Size: =40
         Text: ="About Us"
-        Width: =96
-        X: =40
-        Y: =40
+        Weight: ='TextCanvas.Weight'.Bold
+        Width: =344
+        X: =120
+        Y: =117
         ZIndex: =1
 
     TextCanvas9 As Text:
         DisplayMode: =DisplayMode.Edit
         FontColor: =
-        Height: =264
+        FontItalic: =true
+        Height: =278
+        Size: =25
         Text: |-
             ="Mentes Formans, Futura Potens 
             Unleash the power of AI to revolutionize education with tailored, ethical, and intelligent solutions."
-        Width: =313
-        X: =40
-        Y: =97
+        Width: =371
+        X: =120
+        Y: =138
         ZIndex: =2
 
     TextCanvas10 As Text:
         DisplayMode: =DisplayMode.Edit
         FontColor: =
-        Height: =250
+        Height: =290
+        Size: =18
         Text: ="Discover Ingenium-X, the pinnacle of academic support in the educational landscape. Tailored for universities and schools, our AI-powered chatbot offers instant, precise answers to academic queries, enhancing students' learning experiences. Ethically designed and meticulously trained, Ingenium-X embodies responsible AI utilization. Empower students, educators, and peers alike with our innovative solution, where intelligence meets innovation for a brighter educational future."
-        Width: =479
-        X: =40
-        Y: =275
+        Width: =535
+        X: =120
+        Y: =297
         ZIndex: =3
 
     ButtonCanvas2 As Button:
-        BasePaletteColor: =
+        BasePaletteColor: =RGBA(168, 110, 235, 1)
         DisplayMode: =DisplayMode.Edit
         FontColor: =
         Height: =32
         Text: ="Contact us"
         Width: =96
-        X: =60
-        Y: =580
+        X: =120
+        Y: =586
         ZIndex: =4
 
     Image3 As image:
         BorderColor: =App.Theme.Colors.Darker40
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        Height: =255
+        Height: =465
         Image: ='181878549'
-        Width: =335
-        X: =830
-        Y: =240
+        Width: =487
+        X: =763
+        Y: =138
         ZIndex: =5
 
