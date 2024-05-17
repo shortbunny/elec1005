@@ -87,7 +87,7 @@ HomePage As screen:
         Text: ="View Courses"
         Width: =122
         X: =55
-        Y: =397
+        Y: =345
         ZIndex: =10
 
     ButtonCanvas1_3 As Button:
