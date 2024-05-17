@@ -131,6 +131,7 @@
                         FillPortions: =1
                         Image: ='Screenshot 2024-05-16 at 2.14.47 pm'
                         ImagePosition: =ImagePosition.Fill
+                        OnSelect: =Navigate(OGChat)
                         Width: =400
                         ZIndex: =1
 
@@ -159,6 +160,8 @@
                         Height: =32
                         LayoutMinHeight: =32
                         LayoutMinWidth: =Parent.Width
+                        OnSelect: |
+                            =Navigate(OGChat)
                         Text: ="INFO 1110"
                         Width: =Parent.Width
                         X: =0
@@ -227,6 +230,7 @@
                         FillPortions: =1
                         Image: ='Screenshot 2024-05-16 at 2.14.55 pm'
                         ImagePosition: =ImagePosition.Fill
+                        OnSelect: =Navigate(OGChat)
                         Width: =400
                         ZIndex: =14
 
@@ -255,6 +259,7 @@
                         Height: =32
                         LayoutMinHeight: =32
                         LayoutMinWidth: =Parent.Width
+                        OnSelect: =Navigate(OGChat)
                         Text: |-
                             ="MATH 1062
                             "
@@ -325,6 +330,8 @@
                         FillPortions: =1
                         Image: ='Screenshot 2024-05-16 at 2.15.01 pm'
                         ImagePosition: =ImagePosition.Fill
+                        OnSelect: |
+                            =Navigate(OGChat)
                         Width: =400
                         ZIndex: =1
 
@@ -353,6 +360,8 @@
                         Height: =32
                         LayoutMinHeight: =32
                         LayoutMinWidth: =Parent.Width
+                        OnSelect: |
+                            =Navigate(OGChat)
                         Text: ="ELEC 1005"
                         Width: =Parent.Width
                         X: =0
@@ -421,6 +430,7 @@
                         FillPortions: =1
                         Image: ='458892461'
                         ImagePosition: =ImagePosition.Fill
+                        OnSelect: =Navigate(OGChat)
                         Width: =400
                         ZIndex: =1
 
@@ -449,6 +459,8 @@
                         Height: =32
                         LayoutMinHeight: =32
                         LayoutMinWidth: =Parent.Width
+                        OnSelect: |
+                            =Navigate(OGChat)
                         Text: ="ELEC 1605"
                         Width: =Parent.Width
                         X: =0
@@ -517,6 +529,8 @@
                         FillPortions: =1
                         Image: ='Screenshot 2024-05-16 at 2.15.14 pm'
                         ImagePosition: =ImagePosition.Fill
+                        OnSelect: |
+                            =Navigate(OGChat)
                         Width: =400
                         ZIndex: =1
 
@@ -545,6 +559,8 @@
                         Height: =32
                         LayoutMinHeight: =32
                         LayoutMinWidth: =Parent.Width
+                        OnSelect: |
+                            =Navigate(OGChat)
                         Text: ="COMP 2123"
                         Width: =Parent.Width
                         X: =0
@@ -613,6 +629,9 @@
                         FillPortions: =1
                         Image: ='157580562'
                         ImagePosition: =ImagePosition.Fill
+                        OnSelect: |-
+                            =falsNavigate(OGChat)
+                            e
                         Width: =400
                         ZIndex: =1
 
@@ -641,6 +660,8 @@
                         Height: =32
                         LayoutMinHeight: =32
                         LayoutMinWidth: =Parent.Width
+                        OnSelect: |
+                            =Navigate(OGChat)
                         Text: ="MATH 1002"
                         Width: =Parent.Width
                         X: =0
