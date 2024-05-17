@@ -99,7 +99,7 @@
       "zeroalltabindexes": true
     },
     "Author": "",
-    "BindingErrorCount": 0,
+    "BindingErrorCount": 3,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "DesktopOrTablet",
@@ -114,11 +114,10 @@
     "FileID": "1f3a622e-255f-4ac8-9d95-63ff8293ec6f",
     "Id": "1f3a622e-255f-4ac8-9d95-63ff8293ec6f",
     "InstrumentationKey": "",
-    "LocalDatabaseReferences": "",
     "ManualOfflineProfileId": "",
     "Name": "INGENIUM_X_FINAL",
     "OriginatingVersion": "1.341",
-    "ParserErrorCount": 0,
+    "ParserErrorCount": 2,
     "ShowStatusBar": false
   },
   "PublishInfo": {

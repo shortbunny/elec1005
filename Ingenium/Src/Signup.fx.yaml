@@ -7,6 +7,7 @@ Signup As screen:
         DisplayMode: =DisplayMode.Edit
         FontColor: =
         Height: =41
+        OnSelect: =Patch(Accounts, Update, 
         Text: ="Sign up"
         Width: =303
         X: =153
