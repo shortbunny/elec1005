@@ -1,4 +1,4 @@
-Charlies Contributions:
+# Charlies Contributions:
 - Creating Sharepoint Site For Group
 - Researching and Learning How to Integrate Sharepoint Data Storage with Powerapps
 - Learnt how to integrate AI tool into powerapps (however was not the one to eventually implement this)
