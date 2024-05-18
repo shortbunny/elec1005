@@ -7,15 +7,14 @@ Signup As screen:
         DisplayMode: =DisplayMode.Edit
         FontColor: =
         Height: =41
-        OnSelect: |-
+        OnSelect: |
             =IfError(
                 Patch(
                     'Login Information',
                     Defaults('Login Information'),
                     {
-                        Title:Title.Value,
-                        Username:Username.Value,
-                        Password:password
+                        Title:Username.Value,
+                        Password:password.Value
                     }
                 ),
                 Notify("error"),
@@ -30,6 +29,7 @@ Signup As screen:
             );
             Reset(Username);
             Reset(password);
+            Navigate(HomePage)
         Text: ="Sign up"
         Width: =303
         X: =153
@@ -161,36 +161,4 @@ Signup As screen:
         X: =153
         Y: =262
         ZIndex: =15
-
-    "Title As 'Text input'":
-        BasePaletteColor: =
-        DisplayMode: =DisplayMode.Edit
-        FontColor: =
-        Height: =32
-        Value: =""
-        Width: =320
-        X: =396
-        Y: =68
-        ZIndex: =16
-
-    ButtonCanvas3_6 As Button:
-        BasePaletteColor: =RGBA(168, 110, 235, 1)
-        DisplayMode: =DisplayMode.Edit
-        FontColor: =
-        Height: =41
-        OnSelect: |
-            =Patch(
-                    'Login Information',
-                    Defaults('Login Information'),
-                    {
-                        Title:Title.Value,
-                        Username:Username.Value,
-                        Password:password
-                    }
-                )
-        Text: ="Sign up"
-        Width: =303
-        X: =456
-        Y: =523
-        ZIndex: =17
 

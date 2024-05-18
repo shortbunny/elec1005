@@ -42,10 +42,18 @@
             "tableName": "747528d7-7154-4cc2-8efb-63f52e8258e6"
           }
         }
+      },
+      "https://unisydneyedu.sharepoint.com/sites/Test89": {
+        "dataSources": {
+          "userInfo": {
+            "tableName": "e820b958-f673-47ac-9147-b07f2658734b"
+          }
+        }
       }
     },
     "dataSources": [
-      "Documents"
+      "Documents",
+      "userInfo"
     ],
     "dependencies": {},
     "dependents": [],

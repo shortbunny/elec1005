@@ -33,8 +33,7 @@
       "Modified": "Modified",
       "OData__ColorTag": "Color Tag",
       "Password": "Password",
-      "Title": "Title",
-      "Username": "Username"
+      "Title": "Title"
     },
     "DatasetName": "https://unisydneyedu.sharepoint.com/sites/IngeniumX",
     "EncodeDataset": true,
