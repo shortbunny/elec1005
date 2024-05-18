@@ -179,8 +179,7 @@ Signup As screen:
         FontColor: =
         Height: =41
         OnSelect: |
-            =
-                Patch(
+            =Patch(
                     'Login Information',
                     Defaults('Login Information'),
                     {
