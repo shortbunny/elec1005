@@ -99,7 +99,7 @@
       "zeroalltabindexes": true
     },
     "Author": "",
-    "BindingErrorCount": 3,
+    "BindingErrorCount": 0,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "DesktopOrTablet",
@@ -117,7 +117,7 @@
     "ManualOfflineProfileId": "",
     "Name": "INGENIUM_X_FINAL",
     "OriginatingVersion": "1.341",
-    "ParserErrorCount": 2,
+    "ParserErrorCount": 0,
     "ShowStatusBar": false
   },
   "PublishInfo": {

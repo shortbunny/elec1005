@@ -7,7 +7,29 @@ Signup As screen:
         DisplayMode: =DisplayMode.Edit
         FontColor: =
         Height: =41
-        OnSelect: =Patch(Accounts, Update, 
+        OnSelect: |-
+            =IfError(
+                Patch(
+                    'Login Information',
+                    Defaults('Login Information'),
+                    {
+                        Title:Title.Value,
+                        Username:Username.Value,
+                        Password:password
+                    }
+                ),
+                Notify("error"),
+                Set(
+                    showitemmodule,
+                    !showitemmodule
+                );
+                Notify(
+                    "success",
+                    NotificationType.Success
+                )
+            );
+            Reset(Username);
+            Reset(password);
         Text: ="Sign up"
         Width: =303
         X: =153
@@ -26,7 +48,7 @@ Signup As screen:
         Y: =210
         ZIndex: =3
 
-    "TextInputCanvas2_2 As 'Text input'":
+    "Username As 'Text input'":
         BasePaletteColor: =
         DisplayMode: =DisplayMode.Edit
         FontColor: =
@@ -37,7 +59,7 @@ Signup As screen:
         Y: =312
         ZIndex: =4
 
-    "TextInputCanvas2_3 As 'Text input'":
+    "password As 'Text input'":
         BasePaletteColor: =
         DisplayMode: =DisplayMode.Edit
         FontColor: =
@@ -139,4 +161,37 @@ Signup As screen:
         X: =153
         Y: =262
         ZIndex: =15
+
+    "Title As 'Text input'":
+        BasePaletteColor: =
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =32
+        Value: =""
+        Width: =320
+        X: =396
+        Y: =68
+        ZIndex: =16
+
+    ButtonCanvas3_6 As Button:
+        BasePaletteColor: =RGBA(168, 110, 235, 1)
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =41
+        OnSelect: |
+            =
+                Patch(
+                    'Login Information',
+                    Defaults('Login Information'),
+                    {
+                        Title:Title.Value,
+                        Username:Username.Value,
+                        Password:password
+                    }
+                )
+        Text: ="Sign up"
+        Width: =303
+        X: =456
+        Y: =523
+        ZIndex: =17
 

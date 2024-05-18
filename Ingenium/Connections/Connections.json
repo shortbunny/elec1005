@@ -1,1 +1,54 @@
-{}
+{
+  "30e39606-4639-4990-a2df-1237fb0bccd1": {
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1685/1.0.1685.3700/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://unisydneyedu.sharepoint.com/sites/IngeniumX": {
+        "dataSources": {
+          "Documents_1": {
+            "tableName": "747528d7-7154-4cc2-8efb-63f52e8258e6"
+          },
+          "Login Details": {
+            "tableName": "733e1550-76a0-4b6f-b150-e80f7c3b7c9b"
+          },
+          "Login Information": {
+            "tableName": "0aac1bde-6e7c-4154-9026-246915505963"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Login Details",
+      "Login Information",
+      "Documents_1"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "30e39606-4639-4990-a2df-1237fb0bccd1"
+  },
+  "4366ca0b-eb1a-4b07-9f4e-874614c40214": {
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1685/1.0.1685.3700/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://unisydneyedu.sharepoint.com/sites/Assignment22": {
+        "dataSources": {
+          "Documents": {
+            "tableName": "747528d7-7154-4cc2-8efb-63f52e8258e6"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Documents"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "4366ca0b-eb1a-4b07-9f4e-874614c40214"
+  }
+}
