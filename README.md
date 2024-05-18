@@ -7,4 +7,5 @@ addition
 - PowerApp coding
 - Jira backlog management
 - Jira burndown reports
-- Cat herding (aka general management)
+- Formatting of powerapps to create friendly and clear user interface
+  
