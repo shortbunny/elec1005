@@ -9,5 +9,5 @@ addition
 - Jira burndown reports
 - Cat herding (aka general management)
 
-##Alex
+## Alex's contribution
 -test cases
