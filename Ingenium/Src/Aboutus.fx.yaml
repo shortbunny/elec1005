@@ -45,8 +45,9 @@ Aboutus As screen:
         DisplayMode: =DisplayMode.Edit
         FontColor: =
         Height: =32
-        Text: ="Contact us"
-        Width: =96
+        OnSelect: =Navigate(HomePage)
+        Text: ="Back to Home"
+        Width: =144
         X: =120
         Y: =586
         ZIndex: =4
