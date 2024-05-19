@@ -3,19 +3,18 @@
     Fill: =Color.White
     LoadingSpinnerColor: =App.Theme.Colors.Primary
 
-    "ChatAIInput As 'Text input'":
-        Align: |-
-            ="Ask me anything
-            "
-        BasePaletteColor: =
-        DisplayMode: =DisplayMode.Edit
-        FontColor: =
-        Height: =33
-        Value: =" "
-        Width: =702
-        X: =580
-        Y: =633
-        ZIndex: =9
+    Gallery1 As gallery.variableTemplateHeightGallery:
+        BorderColor: =App.Theme.Colors.Darker40
+        DelayItemLoading: =true
+        Items: =CustomGallerySample
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplatePadding: =4
+        TemplateSize: =280
+        Width: =505
+        X: =640
+        Y: =70
+        ZIndex: =1
 
     TextCanvas7_5 As Text:
         DisplayMode: =DisplayMode.Edit
@@ -138,17 +137,6 @@
         Y: =348
         ZIndex: =34
 
-    Image7 As image:
-        BorderColor: =App.Theme.Colors.Darker40
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Height: =376
-        Image: =ecc5d3011445f85710b9a076227b5ede
-        Width: =487
-        X: =687
-        Y: =163
-        ZIndex: =35
-
     ButtonCanvas2_4 As Button:
         Appearance: ='ButtonCanvas.Appearance'.Outline
         BasePaletteColor: =RGBA(168, 110, 235, 1)
@@ -175,17 +163,35 @@
         Y: =90
         ZIndex: =37
 
-    Icon1 As icon.Send:
+    "TextInputCanvas2 As 'Text input'":
+        DisplayMode: =DisplayMode.Edit
+        Height: =32
+        Width: =505
+        X: =633
+        Y: =652
+        ZIndex: =39
+
+    Icon3 As icon.Send:
         BorderColor: =App.Theme.Colors.Darker40
-        Color: =RGBA(109, 49, 162, 1)
+        Color: =App.Theme.Colors.Darker30
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledColor: =RGBA(244, 244, 244, 1)
-        Height: =30
+        Height: =39
         Icon: =Icon.Send
-        OnSelect: |
-            ='Ingenium-AI'.ChatAPI("gpt-3.5-turbo",Collect(colChat,{role:"user",content:ChatAIInput.text}))
-        Width: =33
-        X: =1245
-        Y: =636
-        ZIndex: =38
+        OnSelect: |-
+            =Set(varResponse,'Ingenium-AI'.ChatAPI("gpt-3.5-turbo", Collect(colChat2, {role: "user", content: TextInputCanvas2.Value})));
+            Collect(colChat2, First(varResponse.choices).message);
+            Reset(TextInputCanvas2);
+        Width: =34
+        X: =1147
+        Y: =648
+        ZIndex: =40
+
+    TextCanvas2 As Text:
+        DisplayMode: =DisplayMode.Edit
+        Height: =32
+        Width: =96
+        X: =60
+        Y: =60
+        ZIndex: =41
 
