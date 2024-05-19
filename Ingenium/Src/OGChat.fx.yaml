@@ -1,19 +1,20 @@
 "OGChat As screen.'autoLayout_Approval_ver1.0'":
     BackgroundImage: =
-    Fill: =Color.bl
+    Fill: =Color.White
     LoadingSpinnerColor: =App.Theme.Colors.Primary
 
     Gallery4 As gallery.variableTemplateHeightGallery:
         BorderColor: =App.Theme.Colors.Darker40
         DelayItemLoading: =true
-        Height: =481
+        Fill: =RGBA(232, 215, 247, 0.45)
+        Height: =517
         Items: =colChat2
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0
-        TemplateSize: =280
-        Width: =514
-        X: =633
+        TemplateSize: =515
+        Width: =565
+        X: =581
         Y: =90
         ZIndex: =1
 
@@ -30,8 +31,9 @@
             ZIndex: =1
 
         TextCanvas7 As Text:
+            AutoHeight: =true
             DisplayMode: =DisplayMode.Edit
-            Height: =80
+            Height: =32
             Size: =18
             Text: =ThisItem.content
             VerticalAlign: ='TextCanvas.VerticalAlign'.Top
@@ -192,14 +194,14 @@
         DisplayMode: =DisplayMode.Edit
         FontColor: =
         Height: =32
-        Width: =505
-        X: =633
+        Width: =557
+        X: =581
         Y: =652
         ZIndex: =39
 
     Icon3 As icon.Send:
         BorderColor: =App.Theme.Colors.Darker40
-        Color: =App.Theme.Colors.Darker30
+        Color: =RGBA(109, 49, 162, 1)
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledColor: =RGBA(244, 244, 244, 1)
         Height: =39
@@ -213,12 +215,16 @@
         Y: =648
         ZIndex: =40
 
-    TextCanvas2 As Text:
-        DisplayMode: =DisplayMode.Edit
-        FontColor: =
-        Height: =32
-        Width: =96
-        X: =60
-        Y: =60
+    Icon2 As icon.CancelBadge:
+        BorderColor: =App.Theme.Colors.Darker40
+        Color: =RGBA(184, 0, 0, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
+        Height: =21
+        Icon: =Icon.CancelBadge
+        OnSelect: =Clear(colChat2)
+        Width: =34
+        X: =1190
+        Y: =657
         ZIndex: =41
 
