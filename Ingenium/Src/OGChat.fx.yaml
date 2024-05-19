@@ -230,11 +230,3 @@
         Y: =657
         ZIndex: =41
 
-    TextCanvas11 As Text:
-        DisplayMode: =DisplayMode.Edit
-        Height: =32
-        Width: =96
-        X: =60
-        Y: =60
-        ZIndex: =42
-
