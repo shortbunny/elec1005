@@ -10,4 +10,5 @@ addition
 - Cat herding (aka general management)
 
 ## Alex's contribution
--test cases
+- test cases for the power app
+- 
