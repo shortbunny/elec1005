@@ -1,20 +1,44 @@
 "OGChat As screen.'autoLayout_Approval_ver1.0'":
     BackgroundImage: =
-    Fill: =Color.White
+    Fill: =Color.bl
     LoadingSpinnerColor: =App.Theme.Colors.Primary
 
-    Gallery1 As gallery.variableTemplateHeightGallery:
+    Gallery4 As gallery.variableTemplateHeightGallery:
         BorderColor: =App.Theme.Colors.Darker40
         DelayItemLoading: =true
-        Items: =CustomGallerySample
+        Height: =481
+        Items: =colChat2
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
-        TemplatePadding: =4
+        TemplatePadding: =0
         TemplateSize: =280
-        Width: =505
-        X: =640
-        Y: =70
+        Width: =514
+        X: =633
+        Y: =90
         ZIndex: =1
+
+        TextCanvas6 As Text:
+            Align: ='TextCanvas.Align'.Start
+            DisplayMode: =DisplayMode.Edit
+            Height: =32
+            Size: =10
+            Text: =ThisItem.role
+            Weight: ='TextCanvas.Weight'.Bold
+            Width: =78
+            X: =20
+            Y: =36
+            ZIndex: =1
+
+        TextCanvas7 As Text:
+            DisplayMode: =DisplayMode.Edit
+            Height: =80
+            Size: =18
+            Text: =ThisItem.content
+            VerticalAlign: ='TextCanvas.VerticalAlign'.Top
+            Width: =376
+            X: =113
+            Y: =36
+            ZIndex: =2
 
     TextCanvas7_5 As Text:
         DisplayMode: =DisplayMode.Edit
@@ -164,7 +188,9 @@
         ZIndex: =37
 
     "TextInputCanvas2 As 'Text input'":
+        BasePaletteColor: =
         DisplayMode: =DisplayMode.Edit
+        FontColor: =
         Height: =32
         Width: =505
         X: =633
@@ -189,6 +215,7 @@
 
     TextCanvas2 As Text:
         DisplayMode: =DisplayMode.Edit
+        FontColor: =
         Height: =32
         Width: =96
         X: =60
