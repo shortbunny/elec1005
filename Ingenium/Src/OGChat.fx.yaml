@@ -5,6 +5,7 @@
 
     Gallery4 As gallery.variableTemplateHeightGallery:
         BorderColor: =App.Theme.Colors.Darker40
+        Default: =Last(colChat2)
         DelayItemLoading: =true
         Fill: =RGBA(232, 215, 247, 0.45)
         Height: =517
@@ -24,6 +25,7 @@
             Height: =32
             Size: =10
             Text: =ThisItem.role
+            VerticalAlign: ='TextCanvas.VerticalAlign'.Top
             Weight: ='TextCanvas.Weight'.Bold
             Width: =78
             X: =20
@@ -227,4 +229,12 @@
         X: =1190
         Y: =657
         ZIndex: =41
+
+    TextCanvas11 As Text:
+        DisplayMode: =DisplayMode.Edit
+        Height: =32
+        Width: =96
+        X: =60
+        Y: =60
+        ZIndex: =42
 
