@@ -1,0 +1,8 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_ingenium-2dai-5ff3add66d26274c06-5f989ce03b00a93fbb",
+    "Name": "Ingenium-AI",
+    "ServiceKind": "ConnectedWadl",
+    "Type": "ServiceInfo"
+  }
+]

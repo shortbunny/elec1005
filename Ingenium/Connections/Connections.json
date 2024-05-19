@@ -58,5 +58,19 @@
     "dependencies": {},
     "dependents": [],
     "id": "4366ca0b-eb1a-4b07-9f4e-874614c40214"
+  },
+  "def27495-4e0d-4c46-8827-fb609598c3e9": {
+    "connectionRef": {
+      "displayName": "Ingenium-AI",
+      "iconUri": "https://az787822.vo.msecnd.net/defaulticons/api-dedicated.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_ingenium-2dai-5ff3add66d26274c06-5f989ce03b00a93fbb"
+    },
+    "datasets": {},
+    "dataSources": [
+      "Ingenium-AI"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "def27495-4e0d-4c46-8827-fb609598c3e9"
   }
 }
