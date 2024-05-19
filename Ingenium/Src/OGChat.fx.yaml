@@ -22,9 +22,12 @@
         FontColor: =
         FontItalic: =false
         FontUnderline: =false
-        Height: =73
+        Height: =89
         Size: =40
-        Text: ="Welcome to Ingenium-X"
+        Text: |-
+            ="Welcome to 
+            
+            Ingenium-X"
         VerticalAlign: |-
             ="middle
             "
@@ -76,7 +79,7 @@
         DisplayMode: =DisplayMode.Edit
         FontColor: =
         Height: =46
-        OnSelect: =Navigate(OGChat_1)
+        OnSelect: =Navigate(infoworksheet)
         Text: ="Info 1110 worksheet for ..."
         Width: =392
         X: =95
@@ -88,7 +91,7 @@
         DisplayMode: =DisplayMode.Edit
         FontColor: =
         Height: =46
-        OnSelect: =Navigate(OGChat_1)
+        OnSelect: =Navigate(aristotle)
         Text: ="Aristotle book doubts..."
         Width: =392
         X: =96
@@ -100,7 +103,7 @@
         DisplayMode: =DisplayMode.Edit
         FontColor: =
         Height: =46
-        OnSelect: =Navigate(OGChat_3)
+        OnSelect: =Navigate(central)
         Text: ="Central assignment teach ..."
         Width: =392
         X: =96
@@ -113,7 +116,7 @@
         FontColor: =
         Height: =46
         OnSelect: |
-            =Navigate(OGChat_4)
+            =Navigate('elec 1061')
         Text: ="ELEC 1061 definition..."
         Width: =392
         X: =96

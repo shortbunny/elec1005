@@ -18,6 +18,7 @@ HomePage As screen:
         DisplayMode: =DisplayMode.Edit
         FontColor: =
         Height: =32
+        OnSelect: =Navigate(SubjectGrid)
         Text: ="Courses"
         Width: =96
         X: =356

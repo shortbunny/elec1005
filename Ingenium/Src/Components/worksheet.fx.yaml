@@ -1,0 +1,20 @@
+worksheet As CanvasComponent:
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =640
+    Width: =640
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    ButtonCanvas4_40 As Button:
+        BasePaletteColor: =RGBA(168, 110, 235, 1)
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =46
+        OnSelect: =Navigate(infoworksheet)
+        Text: ="Info 1110 worksheet for ..."
+        Width: =392
+        X: =101
+        Y: =403
+        ZIndex: =2
+

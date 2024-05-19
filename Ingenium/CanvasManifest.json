@@ -99,7 +99,7 @@
       "zeroalltabindexes": true
     },
     "Author": "",
-    "BindingErrorCount": 0,
+    "BindingErrorCount": 1,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "DesktopOrTablet",
@@ -138,10 +138,10 @@
     "Loginin",
     "Signedup",
     "OGChat",
-    "OGChat_4",
-    "OGChat_3",
-    "OGChat_2",
-    "OGChat_1",
+    "elec 1061",
+    "central",
+    "infoworksheet",
+    "aristotle",
     "Signup",
     "Login"
   ]

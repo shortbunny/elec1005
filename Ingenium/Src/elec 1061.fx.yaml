@@ -1,0 +1,169 @@
+"'elec 1061' As screen.'autoLayout_Approval_ver1.0'":
+    Fill: =Color.White
+    LoadingSpinnerColor: =App.Theme.Colors.Primary
+
+    "TextInputCanvas4_4 As 'Text input'":
+        BasePaletteColor: =
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =33
+        Value: ="What is the definition of an agile model vs waterfall model?"
+        Width: =702
+        X: =580
+        Y: =633
+        ZIndex: =9
+
+    Image6_9 As image:
+        BorderColor: =App.Theme.Colors.Darker40
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Height: =264
+        Image: ='Screenshot 2024-05-16 at 2.20.21 pm'
+        Width: =290
+        X: =594
+        Y: =66
+        ZIndex: =11
+
+    Image6_10 As image:
+        BorderColor: =App.Theme.Colors.Darker40
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Height: =264
+        Image: ='Screenshot 2024-05-16 at 2.20.33 pm'
+        Width: =290
+        X: =900
+        Y: =72
+        ZIndex: =12
+
+    Image6_11 As image:
+        BorderColor: =App.Theme.Colors.Darker40
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Height: =264
+        Image: ='Screenshot 2024-05-16 at 2.21.02 pm'
+        Width: =610
+        X: =580
+        Y: =349
+        ZIndex: =13
+
+    BadgeCanvas1_4 As Badge:
+        Appearance: ='BadgeCanvas.Appearance'.Tint
+        BasePaletteColor: =RGBA(168, 110, 235, 1)
+        Content: ="JS"
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =RGBA(109, 49, 162, 1)
+        FontSize: =25
+        Height: =60
+        ThemeColor: ='BadgeCanvas.ThemeColor'.Informative
+        Width: =60
+        X: =102
+        Y: =213
+        ZIndex: =15
+
+    TextCanvas12_8 As Text:
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =32
+        Text: |-
+            ="Account: John Smith"
+        Width: =183
+        X: =178
+        Y: =209
+        ZIndex: =16
+
+    TextCanvas12_9 As Text:
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =32
+        Text: |-
+            ="Status: Student"
+        Width: =183
+        X: =178
+        Y: =241
+        ZIndex: =17
+
+    TextCanvas13_4 As Text:
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =RGBA(0, 0, 0, 1)
+        FontItalic: =true
+        Height: =32
+        Size: =20
+        Text: |-
+            ="History
+            "
+        Weight: ='TextCanvas.Weight'.Semibold
+        Width: =96
+        X: =102
+        Y: =350
+        ZIndex: =22
+
+    TextCanvas7_10 As Text:
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        FontItalic: =false
+        FontUnderline: =false
+        Height: =99
+        Size: =40
+        Text: |-
+            ="Welcome to 
+            
+            Ingenium-X"
+        VerticalAlign: |-
+            ="middle
+            "
+        Weight: ='TextCanvas.Weight'.Bold
+        Width: =340
+        Wrap: =true
+        X: =93
+        Y: =90
+        ZIndex: =23
+
+    ButtonCanvas4_32 As Button:
+        BasePaletteColor: =RGBA(168, 110, 235, 1)
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =46
+        OnSelect: =Navigate(infoworksheet)
+        Text: ="Info 1110 worksheet for ..."
+        Width: =392
+        X: =95
+        Y: =401
+        ZIndex: =24
+
+    ButtonCanvas4_33 As Button:
+        BasePaletteColor: =RGBA(168, 110, 235, 1)
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =46
+        OnSelect: =Navigate(aristotle)
+        Text: ="Aristotle book doubts..."
+        Width: =392
+        X: =96
+        Y: =481
+        ZIndex: =25
+
+    ButtonCanvas4_34 As Button:
+        BasePaletteColor: =RGBA(168, 110, 235, 1)
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =46
+        OnSelect: =Navigate(central)
+        Text: ="Central assignment teach ..."
+        Width: =392
+        X: =96
+        Y: =561
+        ZIndex: =26
+
+    ButtonCanvas4_35 As Button:
+        BasePaletteColor: =RGBA(168, 110, 235, 1)
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =46
+        OnSelect: |
+            =Navigate('elec 1061')
+        Text: ="ELEC 1061 definition..."
+        Width: =392
+        X: =96
+        Y: =638
+        ZIndex: =27
+
