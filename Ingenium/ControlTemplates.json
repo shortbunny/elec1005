@@ -43,20 +43,6 @@
     "TemplateDisplayName": "Button",
     "Version": "0.0.29"
   },
-  "circle": {
-    "CustomGroupControlTemplateName": "",
-    "FirstParty": true,
-    "Id": "http://microsoft.com/appmagic/shapes/circle",
-    "IsComponentTemplate": false,
-    "IsCustomGroupControlTemplate": false,
-    "IsPcfControl": false,
-    "IsPremiumPcfControl": false,
-    "IsWidgetTemplate": true,
-    "LastModifiedTimestamp": "0",
-    "Name": "circle",
-    "OverridableProperties": {},
-    "Version": "2.3.0"
-  },
   "gallery": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
@@ -156,20 +142,6 @@
     "Name": "image",
     "OverridableProperties": {},
     "Version": "2.2.3"
-  },
-  "label": {
-    "CustomGroupControlTemplateName": "",
-    "FirstParty": true,
-    "Id": "http://microsoft.com/appmagic/label",
-    "IsComponentTemplate": false,
-    "IsCustomGroupControlTemplate": false,
-    "IsPcfControl": false,
-    "IsPremiumPcfControl": false,
-    "IsWidgetTemplate": true,
-    "LastModifiedTimestamp": "0",
-    "Name": "label",
-    "OverridableProperties": {},
-    "Version": "2.5.1"
   },
   "screen": {
     "CustomGroupControlTemplateName": "",

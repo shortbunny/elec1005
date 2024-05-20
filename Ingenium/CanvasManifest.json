@@ -133,10 +133,9 @@
   },
   "ScreenOrder": [
     "HomePage",
+    "HomePage_1",
     "SubjectGrid",
     "Aboutus",
-    "Loginin",
-    "Signedup",
     "OGChat",
     "elec 1061",
     "central",

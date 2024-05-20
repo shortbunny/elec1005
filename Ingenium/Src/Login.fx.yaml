@@ -61,9 +61,9 @@ Login As screen:
             );
             Reset(username);
             Reset(Passwordlogin);
-            Navigate(HomePage)
+            Navigate(HomePage_1)
         Text: ="Login"
-        Width: =303
+        Width: =320
         X: =153
         Y: =458
         ZIndex: =11

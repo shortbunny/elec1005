@@ -22,6 +22,7 @@
         TextCanvas6 As Text:
             Align: ='TextCanvas.Align'.Start
             DisplayMode: =DisplayMode.Edit
+            FontColor: =
             Height: =32
             Size: =10
             Text: =ThisItem.role
@@ -35,6 +36,7 @@
         TextCanvas7 As Text:
             AutoHeight: =true
             DisplayMode: =DisplayMode.Edit
+            FontColor: =
             Height: =32
             Size: =18
             Text: =ThisItem.content
@@ -171,7 +173,7 @@
         DisplayMode: =DisplayMode.Edit
         FontColor: =RGBA(109, 49, 162, 1)
         Height: =32
-        OnSelect: =Navigate(HomePage)
+        OnSelect: =Navigate(HomePage_1)
         Text: ="Back to Home"
         Width: =144
         X: =1190

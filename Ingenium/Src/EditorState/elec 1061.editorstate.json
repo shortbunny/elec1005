@@ -150,7 +150,7 @@
       "StyleName": "",
       "Type": "ControlInfo"
     },
-    "ButtonCanvas2_3": {
+    "ButtonCanvas2_13": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "X",
@@ -209,7 +209,7 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "ButtonCanvas2_3",
+      "Name": "ButtonCanvas2_13",
       "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,

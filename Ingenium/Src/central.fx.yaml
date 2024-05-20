@@ -167,19 +167,6 @@
         Y: =638
         ZIndex: =18
 
-    ButtonCanvas2_5 As Button:
-        Appearance: ='ButtonCanvas.Appearance'.Outline
-        BasePaletteColor: =RGBA(168, 110, 235, 1)
-        DisplayMode: =DisplayMode.Edit
-        FontColor: =RGBA(109, 49, 162, 1)
-        Height: =32
-        OnSelect: =Navigate(HomePage)
-        Text: ="Back to Home"
-        Width: =144
-        X: =1190
-        Y: =40
-        ZIndex: =19
-
     ButtonCanvas2_10 As Button:
         Appearance: ='ButtonCanvas.Appearance'.Outline
         BasePaletteColor: =RGBA(168, 110, 235, 1)
@@ -221,4 +208,17 @@
         X: =1247
         Y: =636
         ZIndex: =22
+
+    ButtonCanvas2_5 As Button:
+        Appearance: ='ButtonCanvas.Appearance'.Outline
+        BasePaletteColor: =RGBA(168, 110, 235, 1)
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =RGBA(109, 49, 162, 1)
+        Height: =32
+        OnSelect: =Navigate(HomePage_1)
+        Text: ="Back to Home"
+        Width: =144
+        X: =1190
+        Y: =34
+        ZIndex: =23
 

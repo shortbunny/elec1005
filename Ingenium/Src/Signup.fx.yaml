@@ -29,7 +29,7 @@ Signup As screen:
             );
             Reset(Username);
             Reset(password);
-            Navigate(HomePage)
+            Navigate(HomePage_1)
         Text: ="Sign up"
         Width: =303
         X: =153
