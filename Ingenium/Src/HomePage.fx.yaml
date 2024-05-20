@@ -101,18 +101,6 @@ HomePage As screen:
         Y: =501
         ZIndex: =8
 
-    ButtonCanvas1_3 As Button:
-        BasePaletteColor: =RGBA(168, 110, 235, 1)
-        DisplayMode: =DisplayMode.Edit
-        FontColor: =
-        Height: =32
-        OnSelect: =Navigate(OGChat)
-        Text: ="Chat"
-        Width: =96
-        X: =835
-        Y: =74
-        ZIndex: =9
-
     Image7_1 As image:
         BorderColor: =App.Theme.Colors.Darker40
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
